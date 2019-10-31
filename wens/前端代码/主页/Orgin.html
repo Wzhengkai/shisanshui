@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>  
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>福建十三水</title>
+        <link link rel="Stylesheet" type="text/css" href="Sigin.css" >
+        <link link rel="Stylesheet" type="text/css" href="Orgin.css" >
+        <script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>  
+        <script type="text/javascript" src="All.js"></script>
+    </head>
+    <body>
+        <div id="head">
+           <button id="sign_in" onclick="location='Signin.html'">登录</button> 
+          <button id="orgin" onclick="javascript:window.location.href='Orgin.html'">注册</button>
+        </div>
+        <div id="main">
+            <div id="main_img" >
+                <img src="FJ13水.png" id="Img1">
+                <div id="main_interface">
+                   <div  id="inPut">
+                        <input id="user_name"  class="Inp" type="text" placeholder="  请输入用户名" ><br>
+                        <input id="secret" class="Inp" type="password" placeholder="  密码">
+                        <input id="re_set" class="Inp" type="text" placeholder="  学号"><br>
+                        <input id="study_password" class="Inp" type="password" placeholder=" 学号密码"><br>
+                        <button id="Sign_in_button">注册</button>
+                   </div>
+                   <img src="jhk-1570250491061.png" id="Img2">
+                </div>
+            </div>
+        </div>
+        <script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#Sign_in_button").click(function(){
+                    $.ajax({
+                        type:"POST",
+                        url:"http://api.revth.com/auth/register2", 
+                         dataType:"json",    //跨域json请求一定是jsonp
+                        // jsonp: "callbackparam",    //跨域请求的参数名，默认是callback
+                        crossDomain:true,
+                       headers:{
+                           "Content-Type":"application/json"
+                       },
+                        data:{
+                            username:"ShenHX",
+                            password:"1234567890shx",
+                            student_number:"171709012",
+                            student_password:"s254567087"
+                        },
+                        success:function(data){
+                                alert("sucessfully")
+                        },
+                        error: function(){
+                            alert("wrong")
+                        }
+                       
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

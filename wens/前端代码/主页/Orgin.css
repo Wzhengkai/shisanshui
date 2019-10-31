@@ -1,0 +1,15 @@
+#main_interface{
+    height: 550px;
+}
+#Sign_in_button{
+    position: relative;
+    top: 150px;
+}
+#study_password{
+    position: relative;
+    top: 110px;
+}
+#Img2{
+    position: relative;
+    top:110px;
+}

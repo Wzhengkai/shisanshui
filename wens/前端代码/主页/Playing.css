@@ -1,0 +1,133 @@
+body{
+    background-color:#C4CFAD ;
+    height: 800px;
+}
+#heading{
+    width: 100%;
+    height: 10%;
+    background-color: #C4CFAD;
+}
+#return{
+    float: left;
+    font-size: 150%;
+    color: #ffffff;
+    background: none;
+    border: none;
+}
+#return:hover{
+    color: #214424;
+}
+.Right_button:hover{
+    color: #214424;
+}
+.Right_button{
+    float: right;
+    font-size: 150%;
+     color: #ffffff;
+     background: none;
+    border: none;
+}
+#Main{
+    width: 100%;
+    height: 90%;
+    background-color: #C4CFAD;
+}
+#computer_part{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    height: 50%;
+    background-color: #C4CFAD;
+}
+#computer_pokers{
+    position: relative;
+    left: 25%;
+    bottom: 10%;
+    width: 35%;
+    height: 80%;
+    background-color: blue;
+}
+#start{
+    position: relative;
+    float: right;
+    height: 10%;
+    width: 11%;
+    left: 19%;
+      top: 78%;
+}
+#computer_message{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 28%;
+    bottom: 10%;
+    width: 13%;
+    height: 50%;
+      background-color:#ffffff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.tags{
+    position: relative;
+    top: 5%;
+    height: 1%;
+    font-size: 80%;
+    margin: 7%;
+    text-align: center;
+}
+#player_part{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    height: 50%;
+    background-color:#C4CFAD;
+}
+#cpt_pic{
+    position: relative;
+    top: 5%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#player_message{
+    position: relative;
+   left: 25%;
+    width: 13%;
+    height: 50%;
+    top: 50%;
+    background-color:#ffffff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+#player_pokers{
+    position: relative;
+     left: 28%;
+     top: 20%;
+      width: 35%;
+    height: 80%;
+    background-color: blue;
+}
+#cards_out{
+    position: relative;
+    float: right;
+    height: 10%;
+    width: 11%;
+    left: 30%;
+    top: 90%;
+}
+#ply_pic{
+     position: relative;
+    top: 5%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+#points2{
+    position: relative;
+    top: 10%;
+}

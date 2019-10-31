@@ -599,8 +599,7 @@ def login(usename,password):
         return message
     except :
         time().sleep(5)
-#139 dzy001 dzy001
-#143 dzy002 dzy002
+
 
 def registered(usename,password):
     url = "https://api.shisanshui.rtxux.xyz/auth/register"

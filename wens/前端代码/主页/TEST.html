@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>福建十三水/排行榜</title>
+    <body>
+        <input id="cards"><button id="start">开始</button><br>
+        <div id="Main">
+            <img id="IMG" src="素材\22.png">
+        </div>
+    </body>
+    <script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>  
+    <script>
+         $(document).ready(function(){
+            $("#start").click(function(){
+                 Str=$("#cards").val();
+                 var str_arry=new Array;
+                 var str=String(Str);
+                 var str_arry=str.split(" ");
+                for(var i=0;i<str_arry.length;i++)
+                {
+                    print()
+                //    if(str_arry[i][0] == "#") {
+                //        var h=str_arry[i];
+                //        String(h);
+                //        if(h.length < 3)
+                //        h="1"+h[1];
+                //        else
+                //        h="1"+h[1]+h[2];
+                //        h=h+".png";
+                //        var I=document.getElementById("Main");
+                //        var P=document.createElement("img");
+                //        P.src=h;
+                //        I.appendChild(P);
+                //    } else
+                //    {
+                //        console.log(str_arry[i]);
+                //    }                
+                } 
+                });
+                function add(){
+
+                }
+            });
+    </script>
+</head>

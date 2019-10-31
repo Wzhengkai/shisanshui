@@ -1,0 +1,118 @@
+body{
+    background-color:#C4CFAD;
+}
+#heading{
+    width: 100%;
+    height: 200px;
+}
+#rules{
+    position: relative;
+    float: right;
+    bottom: 180px;
+    width: 20%;
+    font-size: 200%;
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+#rules:hover{
+    color: #214424;
+}
+#usermessage{
+    position: relative;
+    left: 5%;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 50px;
+  
+}
+#message{
+    position: relative;
+    left: 10%;
+    bottom: 20%;
+    font-size:200%;
+    color: #ffffff;
+}
+#tag{
+    width: 15%;
+    height: 60px;
+    /* height: 20px; */
+
+}
+#face{
+    position: relative;
+    left: 20%;
+    width: 78%;
+}
+#points_text{
+    position: relative;
+    bottom: 15px;
+    font-size:60% ;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 6%;
+}
+#Gaming{
+    width: 23%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+#Img1{
+    width: 97%;
+}
+#Img2{
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: 32px;
+}
+#order{
+    width: 23%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+#Img3{
+    position: relative;
+    width: 75%;
+    left: 40px;
+    top: 32px;
+}
+#history{
+    width: 23%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+.s1{
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    color: #0B8391;
+}
+.s2{
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    color: #CF1F33;
+}
+.s3{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: #30C497;
+}
+#text{
+    background-color: none;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.box{
+    margin-left: 10%;
+}

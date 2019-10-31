@@ -1,0 +1,94 @@
+body {
+    background:#C4CFAD;
+    height: 800px;
+}
+#sign_in{
+    width:10%;
+    height:100%;
+    float:right;
+    font-size: 150%;
+    background: none;
+    border:none;
+    color:#ffffff;
+}
+#orgin{
+    width:10%;
+    height:100%;
+    float:right;
+    font-size: 150%;
+    background: none;
+    border:none;
+    color:#ffffff;
+}
+#sign_in:hover{
+    color: #214424;
+}
+#orgin:hover{
+    color: #214424;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+  height:100%;
+  
+}
+#Img1{
+    position: relative;
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#main_interface{
+    position: relative;
+    width:30%;
+    height: 450px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    border-radius:5%;
+}
+#inPut{
+    position: relative;
+    text-align: center;
+}
+.Inp{
+    position: relative;
+    width: 55%;
+    height: 50px;
+    top: 70px;
+    font-size: 150%;
+   color: #c0c0c0;
+   border-radius:10px;
+   border:solid #a5a5a5 1px;
+   box-shadow: 0 0 7px 2px #214424;
+}
+#secret{
+    margin: 40px;
+}
+#Sign_in_button{
+    position: relative;
+    width: 30%;
+    height: 45px;
+    top: 80px;
+    font-size: 140%;
+    font-family: initial;
+    border: none;
+    background: #214424;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius:10px;
+    opacity:0.7;
+}
+#Img2{
+    /* background: #c76363; */
+    position: relative;
+    top:85px;
+    right:55px;
+    width: 50%;
+    transform:rotate(15deg);
+-ms-transform:rotate(15deg); /* Internet Explorer */
+-moz-transform:rotate(15deg); /* Firefox */
+-webkit-transform:rotate(15deg); /* Safari 和 Chrome */
+-o-transform:rotate(15deg); /* Opera */
+}
