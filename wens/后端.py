@@ -516,13 +516,13 @@ def change(x):
 
 
 def rank():
-    url = "https://api.shisanshui.rtxux.xyz/rank"
+    url = "http://api.revth.com/rank"
     response = requests.get(url)
     print(response.text)
 
 def history(limit,page):
     global use
-    url = 'https://api.shisanshui.rtxux.xyz/history'
+    url = 'http://api.revth.com/history'
     headers = {"X-Auth-Token":token}
     params={
         "player_id":use,
@@ -537,7 +537,7 @@ def history(limit,page):
 
 def history_detail():
     global id
-    url = "https://api.shisanshui.rtxux.xyz/history/{id}"
+    url = "http://api.revth.com/history/{id}"
     params = {"id": id}
     headers = {"X-Auth-Token": token}
     response = requests.get(url,params=params,headers=headers)
@@ -547,7 +547,7 @@ def history_detail():
 def opengame():
     global token
     global id
-    url = "https://api.shisanshui.rtxux.xyz/game/open"
+    url = "http://api.revth.com/game/open"
     headers = {"X-Auth-Token": token}
     response = requests.post(url, headers=headers)
     try:
@@ -561,7 +561,7 @@ def opengame():
 
 def submitgame(submit_ans):
     global token, id
-    url = "https://api.shisanshui.rtxux.xyz/game/submit"
+    url = "http://api.revth.com/game/submit"
     headers = {"content-type": "application/json"}
     headers["X-Auth-Token"] = token
     data={"id":id}
@@ -572,14 +572,14 @@ def submitgame(submit_ans):
 
 def logout():
     global token
-    url = "https://api.shisanshui.rtxux.xyz/auth/logout"
+    url = "http://api.revth.com/auth/logout"
     headers = {"X-Auth-Token":token}
     response = requests.post(url,headers=headers)
     print(response.text)
 
 def login_check():
     global token
-    url = "https://api.shisanshui.rtxux.xyz/auth/validate"
+    url = "http://api.revth.com/auth/validate"
     headers = {"X-Auth-Token": token}
     response = requests.get(url,headers=headers)
     print(response.text)
@@ -587,7 +587,7 @@ def login_check():
 
 def login(usename,password):
     global token,use
-    url = "https://api.shisanshui.rtxux.xyz/auth/login"
+    url = "http://api.revth.com/auth/login"
     payload = "{\"username\":"+"\""+usename+"\""+","+"\"password\":"+"\""+password+"\""+"}"
     headers = {'content-type': 'application/json'}
     response = requests.post(url, data=payload, headers=headers)
@@ -602,7 +602,7 @@ def login(usename,password):
 
 
 def registered(usename,password):
-    url = "https://api.shisanshui.rtxux.xyz/auth/register"
+    url = "http://api.revth.com/auth/register2"
     payload = "{\"username\":"+"\""+usename+"\""+","+"\"password\":"+"\""+password+"\""+"}"
     headers = {'content-type': 'application/json'}
     response = requests.post(url, data=payload, headers=headers)
