@@ -6,12 +6,12 @@
 <a href="https://github.com/Wzhengkai/shisanshui/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Wzhengkai/shisanshui"></a>
 
 
-#运行环境
+# 运行环境
 - 直接在网页上点击**wens**进入目录
 - 网页最下方还有一个README.md，点击图片即可运行我们另外提供的单机版十三水
 
-#注意事项
+# 注意事项
 无。
 
 
-#Have a good time！
+# Have a good time！
